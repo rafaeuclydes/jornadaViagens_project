@@ -1,0 +1,6 @@
+/* CSS RESET */
+h1, select, img, p, fieldset, body, legend, input, label, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
