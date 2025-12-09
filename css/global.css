@@ -27,3 +27,7 @@ h1, select, img, p, fieldset, body, legend, input, label, textarea, button {
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Monteserrat";
+}
