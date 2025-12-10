@@ -46,4 +46,42 @@ nav {
 .list-links li a{
     color: var(--text-secondary-color);
     text-decoration: none;
+    font-weight: var(--menu-text-weight);
+    font-size: 24px;
 }
+
+@media screen and (min-width: 768px ) {
+    .navigation-menu {
+        margin-top: 0;
+    }
+
+    .navigation-menu label {
+        display: none;
+    }
+
+    .navigation-menu nav {
+        display: block;
+    }
+
+    .list-links {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .navigation-menu {
+        width: 467px;
+        margin: 0;
+    }
+
+    .navigation-menu li {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body {
+        background-color: brown;
+    }
+} 
