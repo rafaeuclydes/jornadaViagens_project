@@ -15,10 +15,16 @@ header {
     height: 64px;
 }
 
-.navigation-menu {
-    margin-top: 24px;
+.logo-mobile {
+    display: block;
+}
 
-    
+.logo-desktop {
+    display: none;
+}
+
+.navigation-menu {
+    margin-top: 24px;  
 }
 
 input[type="checkbox"]:checked ~ nav {
@@ -81,7 +87,31 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: brown;
+    header {
+        padding: 38px 120px;
+    }
+
+    .logo {
+        width: 260px;
+        height: 64px;
+    }
+
+    .img-desktop {
+        display: inline;
+    }
+
+    .img-mobile {
+        display: none;
+    }
+
+    .navigation-menu a:hover {
+        color: var(--button-primary-color);
     }
 } 
+
+@media screen and (min-width: 1990px) {
+    header {
+        padding: 166px;
+    }
+    
+}
