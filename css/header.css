@@ -1,5 +1,4 @@
 header {
-   
     background-color: var(--background-tertiary-color);
     display: flex;
     flex-direction: row;
@@ -81,7 +80,9 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-    body {
-        background-color: brown;
+    .list-links:hover  li  {
+        color: var(--button-primary-color);
     }
+
+   
 } 
