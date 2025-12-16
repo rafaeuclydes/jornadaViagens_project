@@ -30,4 +30,20 @@ h1, select, img, p, fieldset, body, legend, input, label, textarea, button {
 
 body {
     font-family: "Monteserrat";
+    color: var(--text-primary-color);
+}
+
+
+.section-text h2 {
+    font-weight: var(--title-weight);
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-text hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-secondary-color);
+    margin: 16px auto 32px;
+    border: none;
 }
