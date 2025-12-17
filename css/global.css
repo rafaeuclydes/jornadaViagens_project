@@ -47,3 +47,12 @@ body {
     margin: 16px auto 32px;
     border: none;
 }
+
+.button {
+    display: block;
+    background-color: var(--button-secondary-color);
+    border-radius: 16px;
+    width: 280px;
+    height: 64px;
+    margin: auto;
+}

@@ -16,6 +16,7 @@
 }
 
 .cards header p {
+    margin-top: 0;
     font-size: 20px;
     font-weight: var(--text-weight);
 }
@@ -23,7 +24,7 @@
 .cards header h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin-top: 8px 0 0;
+    margin-top: 8px 0 0 0;
 }
 
 .cards header span {
@@ -31,13 +32,3 @@
     font-size: 32px;
     display: inline-block;
 }
-
-/*.cards-button {
-    display: block;
-    background-color: var(--button-secondary-color);
-    border-radius: 16px;
-    width: 280px;
-    height: 64px;
-    margin: auto;
-}*/
-
