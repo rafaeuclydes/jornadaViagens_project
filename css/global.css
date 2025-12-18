@@ -49,10 +49,21 @@ body {
 }
 
 .button {
-    display: block;
+    display: inline-block;
     background-color: var(--button-secondary-color);
     border-radius: 16px;
     width: 280px;
     height: 64px;
-    margin: auto;
+    color: var(--text-secondary-color);   
+    text-decoration: none;
+    line-height: 64px;
+    font-weight: var(--title-weight);
+    font-size: 20px;
+}
+
+
+@media screen and (min-width: 1048px) {
+    .button:hover {
+        background-color: var(--button-primary-color);
+    }
 }
