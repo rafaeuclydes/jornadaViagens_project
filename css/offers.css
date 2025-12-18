@@ -25,10 +25,12 @@
 .cards header h3 {
     font-size: 40px;
     font-weight: var(--title-weight);
-    margin-top: 8px 0 0 0;
+    margin-top: 8px 0 0 ;
+
 }
 
 .cards header span {
     font-size: 32px;
+    margin-top: 24px;
     display: inline-block;
 }
