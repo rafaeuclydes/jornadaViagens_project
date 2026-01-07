@@ -1,0 +1,10 @@
+.category-cards {
+    width: 312px;
+    height: 220px;
+    background-color: var(--background-secondary-color);
+}
+
+.card-packeges-national a {
+    display: inline-block;
+    text-align: center;
+}
