@@ -9,6 +9,7 @@
     box-sizing: border-box;
 }
 
+
 .cards header{
     display: block;
     background-color: transparent;
@@ -33,6 +34,26 @@
     font-size: 32px;
     margin-top: 24px;
     display: inline-block;
+}
+
+.cards.japao {
+    background: url(/assets/bg-japao-card.jpg) no-repeat;
+    background-size: cover;
+}
+
+.cards.san-andreas {
+    background: url(../assets/bg-san-andreas-card.jpg) no-repeat;
+    background-size: cover;
+}
+
+.cards.paraiba {
+    background: url(../assets/bg-card-paraiba.jpg) no-repeat;
+    background-size: cover; 
+}
+
+.cards.manaus{
+    background: url(../assets/bg-card-manaus.jpg) no-repeat;
+    background-size: cover;
 }
 
 @media screen and (min-width: 1024px) {
