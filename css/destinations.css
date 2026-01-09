@@ -5,27 +5,72 @@
 }
 
 .destinations .section-text {
-    width: 312px;
+    width: 220px;
     margin: 32px auto ;
 }
 
-.destinations .card-tokyo {
+
+.destinations-cards .card {
     display: flex;
     flex-direction:column;
     width: 312px;
     box-sizing: border-box;
-}
+ }
 
-.destinations .card-tokyo h4 {
+.destinations-cards .card h4 {
     font-size: 28px;
 }
 
-.destinations .card-tokyo p {
+.destinations-cards .card p {
     font-size: 20px;
     font-weight: var(--text-weight);
+    line-height: 1.5;
 }
 
-.destinations .card-tokyo .button {
-        text-align: center;
-        margin-top: 24px;
+.destinations-cards .card .button {
+    text-align: center;
+    width: 312px;
+    margin-top: 24px;
+}
+
+.destinations-cards.card.tokyo {
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .destinations .section-text {
+        width: 100%;
+    }
+
+    .destinations .card {
+        width: 648px;
+    }
+
+    .destinations .card img {
+        width: 648px;
+        height: 452px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .destinations-cards  {
+        display: flex;
+        flex-direction: row;
+        align-items: center; 
+        flex-wrap: wrap;
+        justify-content: center; 
+        gap: 24px;
+    }
+
+    .destinations .card {
+        width: 588px;
+        margin: 0;
+    }
+
+    .destinations .card img {
+        width: 588px;
+    }
 }
