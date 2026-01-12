@@ -1,87 +1,80 @@
-.destinations-items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.destination-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
 }
 
-.destinations .section-text {
-    width: 220px;
-    margin: 32px auto ;
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
+}
+.destinations .item .img-item.tokyo {
+  background: url(/assets/tokyo.jpg);
+  background-size: cover;
+}
+.destinations .item .img-item.osaka {
+  background: url(/assets/osaka.jpg);
+  background-size: cover;
 }
 
-.destinations .item header{
-    display: block;
-    background-color: transparent;
-    position: static;
-    padding: 0;
-    margin-bottom: 24px;
+.destinations .item header h3 {
+  margin: 24px 0;
+}
+.destinations .item p {
+  margin-bottom: 24px;
+}
+.destinations .button {
+  width: 100%;
+  margin-bottom: 24px;
 }
 
-.destinations-items .item {
-    display: flex;
-    flex-direction:column;
-    width: 312px;
-    box-sizing: border-box;
- }
-
-.destinations-items .item h4 {
-    font-size: 28px;
-}
-
-.destinations-items .item p {
-    font-size: 20px;
-    font-weight: var(--text-weight);
-    line-height: 1.5;
-}
-
-.destinations-items .item .button {
-    text-align: center;
-    width: 312px;
-    margin-top: 24px;
-}
-
-/*.destinations-cards.card.tokyo {
-    margin-bottom: 40px;
-}*/
-
-.destinations-items .img-item {
-    background: url(/assets/tokyo.jpg) no-repeat;
-    width: 648px;
-    height: 452px;
-}
 
 @media screen and (min-width: 768px) {
-    .destinations .section-text {
-        width: 100%;
+    .destinations-items {
+        width: 768px;
+    }
+   
+    .destinations .item .img-item {
+    width: 100%;
+    height: 452px;
+  }
+
+    .destinations-items .img-item.osaka {
+        background: url(/assets/tokyo-tablet-desktop.jpg);
+        background-size: cover;
     }
 
-    .destinations .card {
-        width: 648px;
-    }
-
-    .destinations .card img {
+    .destinations-items .img-item.tokyo {
+        background: url(/assets/osaka-tablet-desktop.jpg);
+        background-size: cover;
         width: 648px;
         height: 452px;
+    }
+
+    .destinations-items .item .button {
+        width: 280px;
     }
 }
 
 
 @media screen and (min-width: 1024px) {
-    .destinations-cards  {
+    .destinations {
+        width: 900px;
+    }
+
+    .destinations .item .img-item {
+        width: 100%;
+        height: 452px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .destinations{
+        width: 1200px;
+    }
+
+    .destination-items {
         display: flex;
-        flex-direction: row;
-        align-items: center; 
-        flex-wrap: wrap;
-        justify-content: center; 
-        gap: 24px;
-    }
-
-    .destinations .card {
-        width: 588px;
-        margin: 0;
-    }
-
-    .destinations .card img {
-        width: 588px;
     }
 }

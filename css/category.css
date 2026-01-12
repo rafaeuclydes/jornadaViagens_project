@@ -1,8 +1,3 @@
-.category .section-text {
-    width: 312px;
-    margin: 88px auto ;
-}
-
 .category-cards {
     display: flex;
     flex-direction: column;
