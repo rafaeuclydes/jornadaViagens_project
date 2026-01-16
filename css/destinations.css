@@ -5,7 +5,6 @@
 .destinations-items {
     display: flex;
     flex-direction: column;
-    gap: 24px;
     margin: 32px auto;
 }
 
@@ -36,7 +35,28 @@
     height: 360px;
 }
 
-.destinations-items .button {
+.destinations-items .item .button {
     width: 312px;
     margin: 24px auto 40px;
+}
+
+@media screen and (min-width: 768px) {
+    .destinations-items {
+        width: 648px;
+    }
+
+    .destinations-items .img-item.tokyo {
+        background: url(/assets/tokyo-tablet-desktop.jpg);
+        width: 648px;
+        height: 452px;
+    }
+
+    .destinations-items .img-item.img-item.osaka {
+        background: url(/assets/osaka-tablet-desktop.jpg);
+        width: 648px;
+        height: 452px;
+    }
+
+
+    
 }
