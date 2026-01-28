@@ -1,0 +1,40 @@
+.testmonial-container {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testmonial-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.testmonial-container h4 {
+    font-size: 20px;
+    margin: 8px 0;
+}
+
+.testimonial footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.container-profile {
+    
+}
+
+.testimonial .rating .star {
+    color: var(--button-secondary-color);
+    font-size: 32px;
+}
+
+@media screen and (min-width: 1440px) {
+    .testmonial .testmonial-container {
+        flex-direction: row;  
+    }
+    
+}
