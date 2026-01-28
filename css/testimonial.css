@@ -1,40 +1,38 @@
-.testmonial-container {
+.testimonial-container {
     display: flex;
     flex-direction: column;
     gap: 32px;
 }
 
-.testmonial-container p {
+.testimonial-container p {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 28px;
 }
 
-.testmonial-container h4 {
+.testimonial-container h4 {
     font-size: 20px;
-    margin: 8px 0;
+    margin: 0 0 8px;
+    line-height: 32px;
+    font-weight: var(--title-weight);
 }
 
-.testimonial footer {
+.testimonial-container footer {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
     align-items: center;
     gap: 24px;
     margin-top: 8px;
 }
 
-.container-profile {
-    
-}
 
 .testimonial .rating .star {
     color: var(--button-secondary-color);
     font-size: 32px;
+    line-height: 32px;
 }
 
 @media screen and (min-width: 1440px) {
-    .testmonial .testmonial-container {
+    .testimonial .testimonial-container {
         flex-direction: row;  
-    }
-    
+    }   
 }
