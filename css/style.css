@@ -1,9 +1,10 @@
 @import url("/css/global.css");
 @import url("/css/header.css");
-/*@import url("/css/footer.css");*/
+@import url("/css/footer.css");
 @import url("/css/hero.css");
 @import url("/css/offers.css");
 @import url("/css/category.css");
 @import url("/css/destinations.css");
 @import url("/css/payments.css");
 @import url("/css/testimonial.css");
+@import url("/css/hero-footer.css");
