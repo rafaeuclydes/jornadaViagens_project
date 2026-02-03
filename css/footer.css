@@ -1,4 +1,15 @@
-footer .footer-container {
+.footer-container {
     background-color: var(--background-tertiary-color);
     color: var(--text-secondary-color);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 360px;
 }
+
+.logo-footer {
+    background-size: cover;
+}
+
