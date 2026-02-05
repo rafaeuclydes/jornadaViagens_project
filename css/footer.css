@@ -33,6 +33,10 @@
     margin-bottom: 16px;
 }
 
+.footer-social a {
+    text-decoration: none;
+}
+
 @media screen and (min-width: 768px) {
     .main-footer {
         padding: 32px 60px;

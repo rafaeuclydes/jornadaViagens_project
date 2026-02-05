@@ -25,7 +25,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     background: url(/assets/hero_tablet.png) no-repeat;
     background-size: cover;
@@ -36,14 +36,24 @@
     color: var(--text-primary-color);
     font-size: 32px;
   }
+
+  .bottom-hero .hero-img {
+    background: url(/assets/footer-tablet.png) no-repeat;
+    background-size: cover;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .hero-img {
+  .hero .hero-img {
     height: 620px;
     background: url(/assets/hero_desktop.png) no-repeat;
     background-size: cover;
   }
+
+  .bottom-hero .hero-img {
+    background: url(/assets/footer-desktop.png) no-repeat;
+    background-size: cover;
+}
 
   .hero-text {
     padding: 104px 120px;
@@ -55,5 +65,10 @@
   .hero-text {
     padding: 104px 160px;
     font-size: 32px;
+  }
+
+  .bottom-hero .hero-img {
+    background: url(/assets/footer-desktop.png) no-repeat;
+    background-size: cover;
   }
 }
