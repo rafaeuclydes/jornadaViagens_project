@@ -36,29 +36,31 @@
   flex-direction: column;
 }
 
+
 .hero-blog h2 {
   font-size: 48px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
-  margin: 82px auto 0 24px;
+  margin: 82px 0 0 24px;
   box-sizing: border-box;
   align-items:start;
 }
 
 .hero-blog hr {
-    width: 180px;
-    height: 4px;
-    background-color: var(--button-secondary-color);
-    margin: 16px auto 0 24px;
-    border: none;
+  width: 180px;
+  height: 4px;
+  background-color: var(--button-secondary-color);
+  margin: 16px 24px;
+  border: none;
 }
 
 .hero-blog p {
   font-size: 24px;
   color: var(--text-secondary-color);
-    margin: 32px 24px 0 24px;
+  margin: 32px 24px;
   line-height: 32px;
   align-items: flex-start;
+  font-weight: var(--text-weight);
 }
 
 
