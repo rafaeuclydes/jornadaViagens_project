@@ -33,19 +33,20 @@
   background-size: cover;
   display: flex;
   flex-direction: column;
-   height: 460px;
+  height: 460px;
+  margin-bottom: 88px;
 }
 
 .hero-container {
-  margin: auto; 
+  margin: auto;
+  width: 312px; 
 }
 
 .hero-blog h2 {
   font-size: 48px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
-  margin-left: 24px;
- 
+  margin: 0 0 16px 24px;
 }
 
 .hero-blog hr {
@@ -57,7 +58,7 @@
 }
 
 .hero-blog p {
-  font-size: 22px;
+  font-size: 16px;
   color: var(--text-secondary-color);
   margin: 32px 24px;
   line-height: 32px;
