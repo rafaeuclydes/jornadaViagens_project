@@ -25,7 +25,7 @@
   margin: 0;
   line-height: 1.5;
   color: var(--text-primary-color);
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .hero-blog {
@@ -34,38 +34,38 @@
   display: flex;
   flex-direction: column;
   height: 460px;
-  margin-bottom: 88px;
+  justify-content: center;
+  align-items: center;
 }
 
 .hero-container {
-  margin: auto;
-  width: 312px; 
+  margin: auto; 
+  width: 100%;
+  max-width: 312px;
 }
 
 .hero-blog h2 {
   font-size: 48px;
   font-weight: var(--title-weight);
   color: var(--text-secondary-color);
-  margin: 0 0 16px 24px;
+  margin-bottom: 16px;
 }
 
 .hero-blog hr {
   width: 180px;
   height: 4px;
   background-color: var(--button-secondary-color);
-  margin: 16px 24px;
+  margin:  24px;
   border: none;
 }
 
 .hero-blog p {
-  font-size: 16px;
+  font-size: 20px;
   color: var(--text-secondary-color);
-  margin: 32px 24px;
   line-height: 32px;
   align-items: flex-start;
   font-weight: var(--text-weight);
 }
-
 
 @media screen and (min-width: 768px) {
   .hero .hero-img {
@@ -88,14 +88,17 @@
   .hero-blog {
     background: url(/assets/hero-japao-tablet.png) no-repeat;
     background-size: cover;
-    background-position: center;
     height: 620px;
     align-items: center;
     justify-content: center; 
   }
 
+  .hero-container {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+
   .hero-blog p {
-    width: 580px;
     font-size: 32px;
     line-height: 1.5;
   }
