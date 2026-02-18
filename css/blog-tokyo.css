@@ -1,0 +1,25 @@
+.tokyo .section-text h2 {
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+
+.tokyo .section-text hr {
+    margin: 16px auto 32px;
+}
+
+.tokyo-cards {
+    display: flex;
+    flex-direction: column;
+}
+
+.content-title {
+    margin-top: 32px;
+}
+
+.cards.tokyo footer img {
+    margin: 24px auto 8px;
+}
+
+figcaption {
+    font-size: 14px;
+}
