@@ -1,0 +1,29 @@
+.posts-items header .content-title {
+    margin: 16px auto 8px;
+}
+
+.img-post.tokyo {
+    background: url(/assets/osaka-mobile.png) no-repeat;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.img-post.hiroshima {
+    background: url(/assets/hiroshima-mobile.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.img-post.kyoto {
+    background: url(/assets/kyoto-mobile.png);
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+.posts-items footer .button {
+    width: 312px;
+    margin: 16px auto 40px;
+}
