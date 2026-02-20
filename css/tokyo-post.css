@@ -47,6 +47,11 @@
         background: url(/assets/kyoto-tablet.png) no-repeat;
         background-size: cover;
     }
+
+    .s_blog {
+        text-decoration: underline;
+        
+    }
 }
 
 @media screen and (min-width: 1440px) {
