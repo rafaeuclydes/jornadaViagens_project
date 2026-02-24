@@ -39,6 +39,15 @@
   margin-bottom: 88px;
 }
 
+.hero-travel {
+  background: url(/assets/travel-package/hero-tp-mobile.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 460px;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-container {
   margin: auto; 
   width: 100%;

@@ -1,0 +1,45 @@
+.hero-travel h1 {
+    color: var( --text-secondary-color);
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-travel hr {
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+    background-color: var(--button-secondary-color);
+    border: none;
+}
+
+.hero-travel p {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    line-height: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    .hero-travel {
+        background: url(/assets/travel-package/hero-tp-tablet.png) no-repeat;
+        background-size: cover;
+        height: 620px;
+    }    
+
+    .hero-travel hr {
+        margin: 16px 0 32px;
+    }
+
+    .hero-travel p {
+        font-size: 32px;
+        font-weight: var(--text-weight);
+        line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .hero-travel {
+        background: url(/assets/travel-package/hero-tp-desk.png) no-repeat;
+        background-size: cover;
+    }
+    
+}
