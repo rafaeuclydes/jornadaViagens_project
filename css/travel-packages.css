@@ -18,6 +18,36 @@
     line-height: 32px;
 }
 
+.tour-destinations {
+    margin-top: 88px;
+}
+
+.card-tour .img-tokyo {
+    background: url(/assets/tokyo2-mobile.png) no-repeat;
+    background-size: cover;
+    height: 360px;
+}
+
+.card-tour {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-tour .img-osaka {
+    background: url(/assets/osaka-mobile.png) no-repeat;
+    background-size: cover;
+    height: 360px;
+}
+
+.card-tour .content-title {
+    font-size: 28px;
+}
+
+.card-tour .button {
+    width: 312px;
+    margin: 24px auto 40px
+}
+
 @media screen and (min-width: 768px) {
     .hero-travel {
         background: url(/assets/travel-package/hero-tp-tablet.png) no-repeat;
@@ -34,6 +64,16 @@
         font-weight: var(--text-weight);
         line-height: 1.5;
     }
+
+    .card-tour .img-tokyo {
+        background: url(/assets/tokyo2-tablet.png) no-repeat;
+        background-size: cover;
+    }
+
+    .card-tour .img-osaka {
+        background: url(/assets/osaka-tablet.png) no-repeat;
+        background-size: cover;
+    }
 }
 
 @media screen and (min-width: 1440px) {
@@ -42,4 +82,11 @@
         background-size: cover;
     }
     
+    .tour-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 24px;
+        margin-top: 64px;
+    }
 }
