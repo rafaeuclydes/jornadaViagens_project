@@ -74,6 +74,14 @@ section.hero, .bottom-hero, .hero-blog {
     border: none;
 }
 
+.section-title hr {
+    width: 180px;
+    height: 4px;
+    background-color: var(--button-secondary-color);
+    margin: 16px auto 32px;
+    border: none;
+}
+
 .button {
     display: inline-block;
     background-color: var(--button-secondary-color);
