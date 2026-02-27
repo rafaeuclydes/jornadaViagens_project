@@ -1,4 +1,14 @@
-.conteiner-payment {}
+.tour-payment {
+    margin-top: 88px
+}
+
+.tour-payment .section-text h2 {
+    font-size: 32px;
+}
+
+.container-payment .content-title h3 {
+    font-size: 28px;
+}
 
 .image-content {
     display: grid;
@@ -27,4 +37,25 @@
     background: url(/assets/travel-package/japao3-mobile.png) no-repeat;
     grid-column: 1 / -1;
     height: 182px;
+}
+
+.container-payment .button {
+    width: 312px;
+    margin: 24px auto 40px;
+}
+
+@media screen and (min-width: 768px) {
+        .image-content .image.japao1 {
+    background: url(/assets/travel-package/japao1-.png) no-repeat;
+}
+
+.image-content .image.japao2 {
+    background: url(/assets/travel-package/japao2-mobile.png) no-repeat;
+}
+
+.image-content .image.japao3 {
+    background: url(/assets/travel-package/japao3-mobile.png) no-repeat;
+    grid-column: 1 / -1;
+    height: 182px;
+}
 }
