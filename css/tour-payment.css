@@ -45,17 +45,47 @@
 }
 
 @media screen and (min-width: 768px) {
-        .image-content .image.japao1 {
-    background: url(/assets/travel-package/japao1-.png) no-repeat;
+    .image-content .image.japao1 {
+        background: url(/assets/travel-package/japao1-tablet.png) no-repeat;
+    }
+
+    .image-content .image.japao2 {
+        background: url(/assets/travel-package/japao2-tablet.png) no-repeat;
+    }
+
+    .image-content .image.japao3 {
+        background: url(/assets/travel-package/japao3-tablet.png) no-repeat;
+        grid-column: 1 / -1;
+        height: 182px;
+    }
 }
 
-.image-content .image.japao2 {
-    background: url(/assets/travel-package/japao2-mobile.png) no-repeat;
+@media screen and (min-width: 1024px) {
+    .container-payment {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+    }
+    
 }
 
-.image-content .image.japao3 {
-    background: url(/assets/travel-package/japao3-mobile.png) no-repeat;
-    grid-column: 1 / -1;
-    height: 182px;
-}
+@media screen and (min-width: 1440px) {
+    .container-payment {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
+    .image-content .image.japao1 {
+        background: url(/assets/travel-package/japao1-desk.png) no-repeat;
+    }
+
+    .image-content .image.japao2 {
+        background: url(/assets/travel-package/japao2-desk.png) no-repeat;
+    }
+
+    .image-content .image.japao3 {
+        background: url(/assets/travel-package/japao3-desk.png) no-repeat;
+        grid-column: 1 / -1;
+        height: 182px;
+    }
 }
