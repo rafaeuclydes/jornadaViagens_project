@@ -18,6 +18,11 @@
   background-size: cover;
 }
 
+.bottom-hero.tour .hero-img {
+  background: url(/assets/travel-package/footertour-mobile.png);
+  background-size: cover;
+}
+
 .hero-text {
   text-align: center;
   font-weight: var(--text-weight);
@@ -95,6 +100,11 @@
     background-size: cover;
   }
 
+  .bottom-hero.tour .hero-img {
+    background: url(/assets/travel-package/footertour-tablet.png);
+    background-size: cover;
+}
+
   .hero-blog {
     background: url(/assets/hero-japao-tablet.png) no-repeat;
     background-size: cover;
@@ -124,7 +134,12 @@
   .bottom-hero .hero-img {
     background: url(/assets/footer-desktop.png) no-repeat;
     background-size: cover;
-}
+  }
+
+  .bottom-hero.tour .hero-img {
+    background: url(/assets/travel-package/footertour-desk.png);
+    background-size: cover;
+  }
 
   .hero-text {
     padding: 104px 120px;
@@ -171,5 +186,10 @@
     background-size: cover;
     background-position: center;
     height: 820px;
+  }
+
+  .bottom-hero.tour .hero-img {
+    background: url(/assets/travel-package/footertour-desk.png);
+    background-size: cover;
   }
 }
