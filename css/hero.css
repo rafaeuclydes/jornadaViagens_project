@@ -53,6 +53,15 @@
   align-items: center;
 }
 
+.hero-contact {
+  background: url(/assets/hero-contact-mobile.png) no-repeat;
+  background-size: cover;
+  display: flex;
+  height: 460px;
+  justify-content: center;
+  align-items: center;
+}
+
 .hero-container {
   margin: auto; 
   width: 100%;
@@ -113,6 +122,11 @@
     justify-content: center; 
   }
 
+  .hero-contact {
+    background: url(/assets/hero-contact-tablet.png) no-repeat;
+    background-size: cover;
+  }
+
   .hero-container {
     max-width: 580px;
     margin: 0 auto;
@@ -155,6 +169,11 @@
     justify-content: center;
   }
 
+  .hero-contact {
+    background: url(/assets/hero-contact-desk.png) no-repeat;
+    background-size: cover;
+  }
+
   .hero-container {
     margin-left: 120px;
   }
@@ -192,4 +211,10 @@
     background: url(/assets/travel-package/footertour-desk.png);
     background-size: cover;
   }
+
+    .hero-contact {
+    background: url(/assets/hero-contact-desk.png) no-repeat;
+    background-size: cover;
+  }
+
 }
