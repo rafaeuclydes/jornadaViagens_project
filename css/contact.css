@@ -17,3 +17,9 @@
     font-size: 20px;
     line-height: 32px;
 }
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    
+}
