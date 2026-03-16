@@ -1,0 +1,19 @@
+.hero-contact h2 {
+    color: var( --text-secondary-color);
+    font-size: 48px;
+    margin: 0;
+}
+
+.hero-contact hr {
+    width: 180px;
+    height: 4px;
+    margin: 16px 0 32px;
+    background-color: var(--button-secondary-color);
+    border: none;
+}
+
+.hero-contact p {
+    color: var(--text-secondary-color);
+    font-size: 20px;
+    line-height: 32px;
+}
